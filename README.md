@@ -42,6 +42,47 @@ Penjelasan:
 - Jika ada elemen dalam daftar errors, setiap pesan kesalahan akan ditampilkan.
 - Jika tidak ada kesalahan, program akan menampilkan "Data pendaftaran valid."
 
+# Persyaratan
+
+- Python 3.x
+- Library re (sudah termasuk dalam Python standar)
+
+# Cara Menjalankan Program
+1. Clone repositori ini atau salin file program ke komputer Anda.
+2. Buka terminal atau command prompt.
+3. Jalankan program menggunakan perintah: bash python nama_file.py
+4. Masukkan data sesuai dengan permintaan program:
+    - Nama lengkap
+    - Nomor telepon
+    - Email
+5. Program akan menampilkan hasil validasi:
+    - Pesan "Data pendaftaran valid" jika semua input benar.
+    - Pesan kesalahan untuk setiap data yang tidak valid.
+
+# Input dan Output
+# Input
+
+
+# Output Valid
+
+Masukan nama lengkap: marsya Masukkan nomor telepon: 0851 Masukkan email: marsyanabila293@gmail.com Data pendaftaran valid.
+
+# Input Tidak Valid
+
+Masukkan nama lengkap: marsya Masukkan nomor telepon: 0851 Masukkan email: marsyanabila293.com Nama lengkap harus hanya berisi huruf. Nomor telepon harus hanya berisi angka. Email harus mengandung karakter @ dan . serta sesuai format yang benar.
+
+# Fitur dan Kemampuan: 
+- Kesesuaian dengan berbagai pengguna
+- Dapat Dimodifikasi
+- Keamanan dasar input
+- Laporan kesalahan yang spesifik
+
+
+
+
+
+
+
 
 
 
