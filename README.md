@@ -30,10 +30,19 @@ Penjelasan:
 Penjelasan:
 
 - Ekspresi reguler ^\S+@\S+\.\S+$ memastikan bahwa:
-        - Ada karakter sebelum @ (\S+ berarti non-spasi).
-        - Ada karakter sebelum dan sesudah ..
-        - Tidak ada spasi di seluruh string email.
+  - Ada karakter sebelum @ (\S+ berarti non-spasi).
+  - Ada karakter sebelum dan sesudah ..
+  - Tidak ada spasi di seluruh string email.
 - Jika format email tidak sesuai, validasi akan gagal.
+
+4. Hasil Validasi
+
+Penjelasan:
+
+- Jika ada elemen dalam daftar errors, setiap pesan kesalahan akan ditampilkan.
+- Jika tidak ada kesalahan, program akan menampilkan "Data pendaftaran valid."
+
+
 
 
 
