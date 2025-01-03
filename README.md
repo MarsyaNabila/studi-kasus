@@ -13,6 +13,8 @@ Program ini dibuat untuk memvalidasi data input pada proses pendaftaran online. 
 # Cara kerja Program
 1. Validasi Nama
 
+![Screenshot 2025-01-03 071254](https://github.com/user-attachments/assets/308db696-06c6-47a0-a0ef-9bd2fc2f38a0)
+
 Penjelasan:
 
 - Fungsi isalpha() memastikan bahwa name hanya terdiri dari huruf.
@@ -20,12 +22,16 @@ Penjelasan:
 
 2. Validasi Nomor Telepon
 
+![Screenshot 2025-01-03 071247](https://github.com/user-attachments/assets/ab65e6d4-5764-455a-8ad9-b6e64e289fa0)
+
 Penjelasan:
 
 - Fungsi isdigit() memastikan bahwa phone hanya terdiri dari angka.
 - Jika phone berisi huruf, spasi, atau karakter lain, validasi akan gagal.
 
 3. Validasi Email
+
+![Screenshot 2025-01-03 071130](https://github.com/user-attachments/assets/f9997098-ccf2-4b7a-a7b2-63da0e0ed6cf)
 
 Penjelasan:
 
@@ -36,6 +42,8 @@ Penjelasan:
 - Jika format email tidak sesuai, validasi akan gagal.
 
 4. Hasil Validasi
+
+   ![Screenshot 2025-01-03 070844](https://github.com/user-attachments/assets/3796f850-25b0-4dc8-930c-a5fd4ba1e2ab)
 
 Penjelasan:
 
@@ -61,15 +69,17 @@ Penjelasan:
 
 # Input dan Output
 # Input
-
+![code](https://github.com/user-attachments/assets/904a42dc-1dd3-4642-8da9-fc4cd30c2a2f)
 
 # Output Valid
+![Screenshot 2025-01-03 065925](https://github.com/user-attachments/assets/76cdc677-7863-4691-9634-f660cecffdfe)
 
-Masukan nama lengkap: marsya Masukkan nomor telepon: 0851 Masukkan email: marsyanabila293@gmail.com Data pendaftaran valid.
+Masukan nama lengkap: marsya Masukkan nomor telepon: 0895 Masukkan email: marsyanabila293@gmail.com Data pendaftaran valid.
 
 # Input Tidak Valid
+![Screenshot 2025-01-03 070337](https://github.com/user-attachments/assets/a1ce553e-8826-4721-bdcf-eba06a87185a)
 
-Masukkan nama lengkap: marsya Masukkan nomor telepon: 0851 Masukkan email: marsyanabila293.com Nama lengkap harus hanya berisi huruf. Nomor telepon harus hanya berisi angka. Email harus mengandung karakter @ dan . serta sesuai format yang benar.
+Masukkan nama lengkap: marsya Masukkan nomor telepon: 0895 Masukkan email: marsyanabila293.com Nama lengkap harus hanya berisi huruf. Nomor telepon harus hanya berisi angka. Email harus mengandung karakter @ dan . serta sesuai format yang benar.
 
 # Fitur dan Kemampuan: 
 - Kesesuaian dengan berbagai pengguna
